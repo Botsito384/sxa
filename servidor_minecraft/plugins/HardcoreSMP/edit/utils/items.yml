@@ -1,0 +1,280 @@
+# Ejemplos de items custom.
+# Todo esta comentado para que no haya contenido activo por defecto.
+#
+# EspadaDelSilencio:
+#   Id: NETHERITE_SWORD
+#   Display: '&9&ka&9| &b&lEspada del Silencio &9|&ka'
+#   Lore:
+#   - '&7Una espada creada desde HardcoreSMP.'
+#   Enchantments:
+#   - DAMAGE_ALL:5
+#   Attributes:
+#     MainHand:
+#       Damage: 8
+#
+# ArmaduraRainbow:
+#   Id: LEATHER_CHESTPLATE
+#   Display: '&d&lArmadura Rainbow'
+#   Options:
+
+OriginalEndRelic:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: RelicsSlots
+  Note: Item original usado para desbloquear slots del dia 40.
+  Id: LIGHT_BLUE_DYE
+  Display: '&6Reliquia Del Fin'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/relic/end_relic
+OriginalBeginningRelic:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: RelicsSlots
+  Note: Item original usado para desbloquear slots del dia 60.
+  Id: CYAN_DYE
+  Display: '&6Reliquia del Comienzo'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/relic/beginning_relic
+OriginalLifeOrb:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: Events.LifeOrb
+  Note: Item original del evento Life Orb.
+  Id: BROWN_DYE
+  Display: '&6Orbe de Vida'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/relic/life_orb
+OriginalNetheriteSword:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Tool original de netherite custom.
+  Id: DIAMOND_SWORD
+  Display: '&6Espada de Netherite'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/tools/netherite_sword
+OriginalNetheritePickaxe:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Tool original de netherite custom.
+  Id: DIAMOND_PICKAXE
+  Display: '&6Pico de Netherite'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/tools/netherite_pickaxe
+OriginalNetheriteAxe:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Tool original de netherite custom.
+  Id: DIAMOND_AXE
+  Display: '&6Hacha de Netherite'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/tools/netherite_axe
+OriginalNetheriteShovel:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Tool original de netherite custom.
+  Id: DIAMOND_SHOVEL
+  Display: '&6Pala de Netherite'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/tools/netherite_shovel
+OriginalNetheriteHoe:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Tool original de netherite custom.
+  Id: DIAMOND_HOE
+  Display: '&6Azada de Netherite'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/tools/netherite_hoe
+OriginalNetheriteHelmet:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Armadura original obtenible por drops dia 25.
+  Id: LEATHER_HELMET
+  Display: '&5Netherite Helmet'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalNetheriteChestplate:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Armadura original obtenible por drops dia 25.
+  Id: LEATHER_CHESTPLATE
+  Display: '&5Netherite Chestplate'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalNetheriteLeggings:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Armadura original obtenible por drops dia 25.
+  Id: LEATHER_LEGGINGS
+  Display: '&5Netherite Leggings'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalNetheriteBoots:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Armadura original obtenible por drops dia 25.
+  Id: LEATHER_BOOTS
+  Display: '&5Netherite Boots'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalInfernalNetheriteBlock:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Material original usado en recetas infernales.
+  Id: DIAMOND
+  Display: '&6Infernal Netherite Block'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/block/netherite_block
+OriginalInfernalHelmet:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Casco infernal original.
+  Id: LEATHER_HELMET
+  Display: '&6Infernal Netherite Helmet'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalInfernalChestplate:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Pechera infernal original.
+  Id: LEATHER_CHESTPLATE
+  Display: '&6Infernal Netherite Chestplate'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalInfernalLeggings:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Pantalones infernales originales.
+  Id: LEATHER_LEGGINGS
+  Display: '&6Infernal Netherite Leggings'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalInfernalBoots:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Botas infernales originales.
+  Id: LEATHER_BOOTS
+  Display: '&6Infernal Netherite Boots'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+OriginalInfernalElytra:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: OriginalRecipes.Day60
+  Note: Elytra original infernal del dia 60.
+  Id: ELYTRA
+  Display: '&6Elytras de Netherite Infernal'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1

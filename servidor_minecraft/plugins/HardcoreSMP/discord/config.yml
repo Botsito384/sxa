@@ -1,0 +1,30 @@
+# HardcoreSMP - Discord integrado
+#
+# Crea una aplicacion y un bot en Discord Developer Portal, copia el token y
+# coloca los IDs de los canales. Nunca compartas este archivo con el token real.
+# Ejecuta /hcs reload despues de guardar cambios.
+
+ConfigVersion: 1
+
+Bot:
+  Enabled: false
+  Token: ''
+
+Server:
+  Name: Mi HardcoreSMP
+
+Channels:
+  # Encendido, apagado, Death Train y avisos generales.
+  Announcements: ''
+  # Muertes permanentes y baneos AFK.
+  Deaths: ''
+  # Cambios de dia/dificultad. Si esta vacio, usa Announcements.
+  DifficultyChanges: ''
+
+RichPresence:
+  Enabled: true
+  # PLAYING, WATCHING, LISTENING o COMPETING.
+  Type: WATCHING
+  Text: HardcoreSMP | Dia %day%
+  # ONLINE, IDLE, DO_NOT_DISTURB o INVISIBLE.
+  OnlineStatus: ONLINE

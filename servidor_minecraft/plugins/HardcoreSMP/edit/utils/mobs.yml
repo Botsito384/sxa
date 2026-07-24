@@ -1,0 +1,103 @@
+# Ejemplos de mobs custom.
+# Todo esta comentado para que ningun mob custom exista por defecto.
+#
+# EvilMinion:
+#   Type: BABY_ZOMBIE
+#   Display: '&c&lEvil Minion'
+#   Health: 20
+#   Damage: 6
+#   Drops:
+#   - EvilMinionDrops
+#   Options:
+#     MovementSpeed: 0.3
+#     AlwaysShowName: true
+#   Skills:
+
+OriginalEnderCreeper:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: MobPhases.Day50
+  Note: Creeper invisible original.
+  Type: CREEPER
+  Display: '&6Ender Creeper'
+  Health: 20
+  Damage: 4
+OriginalQuantumCreeper:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: MobPhases.Day50
+  Note: Creeper original con explosion configurable.
+  Type: CREEPER
+  Display: '&6Quantum Creeper'
+  Health: 20
+  Damage: 4
+OriginalEnderQuantumCreeper:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: MobPhases.Day60
+  Note: Creeper original invisible + quantum.
+  Type: CREEPER
+  Display: '&6Ender Quantum Creeper'
+  Health: 20
+  Damage: 4
+OriginalUltraRavager:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: MobPhases.Day40
+  Note: Ravager montura original con Carlos/Jess.
+  Type: RAVAGER
+  Display: '&6Ultra Ravager'
+  Health: 20
+  Damage: 4
+OriginalGatoSupernova:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: MobPhases.Day40
+  Note: Gato original que prepara explosion.
+  Type: CAT
+  Display: '&6Gato Supernova'
+  Health: 20
+  Damage: 4
+OriginalGatoGalactico:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: PaperWorldTweaks
+  Note: Gato original con evento galactico.
+  Type: CAT
+  Display: '&6Gato Galactico'
+  Health: 20
+  Damage: 4
+OriginalEnderGhast:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 30
+  OriginalFeature: EndSystem
+  Note: Ghast original del End.
+  Type: GHAST
+  Display: '&6Ender Ghast'
+  Health: 20
+  Damage: 4
+OriginalHardcoreSMPDemon:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 30
+  OriginalFeature: EndDemon
+  Note: Dragon/Demon original del End.
+  Type: ENDER_DRAGON
+  Display: '&6&lHardcoreSMP Demon'
+  Health: 20
+  Damage: 4

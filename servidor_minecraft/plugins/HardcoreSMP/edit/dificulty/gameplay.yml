@@ -1,0 +1,782 @@
+Features:
+  DeathTrain:
+    Enabled: true
+    UnlockDay: 1
+    Storm:
+      Enabled: true
+      ShowActionBar: true
+      ApplyMobEffectsFromDay: 25
+    UHC:
+      Enabled: true
+      UnlockDay: 50
+    CloseBeginning: true
+    Ban:
+      Enabled: true
+      IncludeOps: true
+    PlayerSkulls: true
+    ShowDeathCoords: true
+    DefaultDeathSoundsEnabled: true
+    Duration:
+      EarlyHoursPerDay: 1.0
+      MidHoursPerDay: 1.0
+      Day50Minutes: 30
+      LateMinutesPerDay: 30
+    Effects:
+      Enabled: true
+      SpeedLevel: 1
+      ResistanceLevel: 1
+      StrengthLevel: 1
+      Day50BonusLevels: 1
+      FireResistance: true
+    Sound: ENTITY_BLAZE_DEATH
+    Particle: SOUL_FIRE_FLAME
+  SleepSystem:
+    Enabled: true
+    UnlockDay: 1
+    ExplodeBedsFromDay: 20
+    GroupSleepFromDay: 10
+    GroupSleepPlayers: 4
+    Day50ResetChance: 10
+  Day10Changes:
+    Enabled: true
+    UnlockDay: 10
+    SpiderEffects:
+      Enabled: true
+      Minimum: 1
+      Maximum: 3
+      SpeedLevel: 3
+      RegenerationLevel: 4
+      StrengthLevel: 4
+      JumpLevel: 4
+      ResistanceLevel: 3
+      Glowing: true
+      Invisibility: true
+      SlowFalling: true
+    MobCap:
+      Enabled: true
+      MonsterLimit: 140
+      NormalMonsterLimit: 70
+    Sleep:
+      Enabled: true
+      MinimumPlayers: 4
+  CustomMobProgression:
+    Enabled: true
+    UnlockDay: 1
+    LegacyOriginalPhases: true
+  TotemFail:
+    Enabled: true
+    UnlockDay: 30
+    Day40RequiredTotems: 2
+    Day60RequiredTotems: 3
+    MedallaMessage: '&7¡El jugador %player% ha usado su medalla de superviviente!'
+    FailMessage: '&7¡El tótem de &c%player% &7ha fallado!'
+    FailTotemsMessage: '&7¡Los tótems de &c%player% &7han fallado!'
+    NotEnoughTotemsMessage: '&7¡%player% no tenía suficientes tótems en el inventario!'
+    PlayerUsedTotemMessage: '&7El jugador %player% ha consumido un tótem (Probabilidad:
+      %totem_fail% %porcent% %number%)'
+    PlayerUsedTotemsMessage: '&7El jugador %player% ha consumido {ammount} tótems
+      (Probabilidad: %totem_fail% %porcent% %number%)'
+    FailProbs:
+      '30': 1
+      '31': 1
+      '32': 1
+      '33': 1
+      '34': 1
+      '35': 1
+      '36': 1
+      '37': 1
+      '38': 1
+      '39': 1
+      '40': 3
+      '41': 3
+      '42': 3
+      '43': 3
+      '44': 3
+      '45': 3
+      '46': 3
+      '47': 3
+      '48': 3
+      '49': 3
+      '50': 5
+      '51': 5
+      '52': 5
+      '53': 5
+      '54': 5
+      '55': 5
+      '56': 5
+      '57': 5
+      '58': 5
+      '59': 5
+      '60': 7
+      '61': 7
+      '62': 7
+      '63': 7
+      '64': 7
+      '65': 7
+      '66': 7
+      '67': 7
+      '68': 7
+      '69': 7
+      '70': 15
+  HostileMobs:
+    Enabled: true
+    UnlockDay: 20
+  MobPhases:
+    Day20:
+      Enabled: true
+      UnlockDay: 20
+      Phantom:
+        Enabled: true
+        Size: 9
+        HealthMultiplier: 2.0
+      SpecialSpawnChance: 0.0
+      SkeletonClasses:
+        Enabled: true
+        ClassesBeforeDay60: 5
+        ClassesFromDay60: 7
+        Diamond:
+          Health:
+            Day20: 20.0
+            Day30: 40.0
+            Day50: 100.0
+          Protection:
+            Day30: 4
+            Day60: 5
+        Tactical:
+          Health:
+            BeforeDay60: 40.0
+            FromDay60: 60.0
+          Punch:
+            Day20: 20
+            Day30: 30
+            Day50: 50
+          Power:
+            Day30: 25
+            Day50: 40
+            Day60: 110
+        Infernal:
+          Health:
+            Day20: 20.0
+            Day30: 40.0
+            Day60: 100.0
+          FireAspect:
+            Day20: 2
+            Day30: 10
+            Day50: 20
+          Sharpness:
+            BeforeDay60: 25
+            FromDay60: 100
+        Crossbow:
+          Health:
+            BeforeDay60: 40.0
+            FromDay60: 60.0
+          Sharpness:
+            Day20: 20
+            Day30: 25
+            Day50: 50
+            Day60: 100
+          Speed:
+            BeforeDay60: 2
+            FromDay60: 4
+        Red:
+          Health:
+            BeforeDay60: 40.0
+            FromDay60: 60.0
+          Power:
+            Day20: 10
+            Day30: 50
+            Day50: 60
+            Day60: 150
+        Demonic:
+          DisplayName: '&6Ultra Esqueleto Demoniaco'
+          Health: 100.0
+        Scientist:
+          DisplayName: '&6Ultra Esqueleto Cientifico'
+          Health: 100.0
+      RavagerTotemChance: 1.0
+    Day25:
+      Enabled: true
+      UnlockDay: 25
+      Phantom:
+        Enabled: true
+        Size: 9
+        HealthMultiplier: 2.0
+      SpecialSpawnChance: 0.0
+      RavagerTotemChance: 20.0
+      Ravager:
+        SpeedLevel: 2
+        StrengthLevel: 1
+        TotemDropSound: ENTITY_PLAYER_LEVELUP
+        TotemDropSoundVolume: 1.0
+        TotemDropSoundPitch: 1.0
+      Ghast:
+        FireballPower: 3
+        MinimumFireballPower: 3
+        MaximumFireballPower: 5
+        EndFireballPower: 6
+      NetheriteMobs:
+        Slime:
+          DisplayName: '&6GIGA Slime'
+          SizeBeforeDay50: 15
+          SizeFromDay50: 16
+          HealthMultiplierBeforeDay50: 2.0
+          HealthMultiplierFromDay50: 4.0
+        MagmaCube:
+          DisplayName: '&6GIGA MagmaCube'
+          SizeBeforeDay50: 16
+          SizeFromDay50: 17
+          MaximumWorld: 10
+          HealthMultiplierFromDay50: 2.0
+        Ghast:
+          MinimumHealth: 40.0
+          MaximumHealth: 60.0
+          FloatingChance: 75.0
+          DemonicName: '&6Ghast Demoniaco'
+          FloatingName: '&6Demonio flotante'
+          FloatingAttack:
+            LevitationLevel: 50
+            LevitationDurationSeconds: 5
+            WitherLevel: 5
+            WitherDurationSeconds: 20
+    Day30:
+      Enabled: true
+      UnlockDay: 30
+      Phantom:
+        Enabled: true
+        Size: 9
+        HealthMultiplier: 2.0
+      SpecialSpawnChance: 5.0
+      EnderGhast:
+        Enabled: true
+        Health: 150.0
+        DisplayName: '&6Ender Ghast'
+        TeleportChance: 20.0
+      Enderman:
+        StrengthLevel: 2
+        DeathModuleChance: 5.0
+      Guardian:
+        SpeedLevel: 2
+        MaximumNearby: 20
+      Blaze:
+        ResistanceLevel: 2
+        MaximumWorld: 30
+      IronGolem:
+        SpeedLevel: 4
+      Creeper:
+        Powered: true
+      Pillager:
+        Invisible: true
+        QuickChargeLevel: 4
+      TeleportGhast:
+        TeleportChance: 80.0
+      Teleport:
+        MaximumAttempts: 64
+        HorizontalRange: 64.0
+        VerticalRange: 64
+    Day40:
+      Enabled: true
+      UnlockDay: 40
+      Phantom:
+        Enabled: true
+        Size: 9
+        HealthMultiplier: 2.0
+      SpecialSpawnChance: 5.0
+      UltraRavager:
+        Enabled: true
+        Health: 240.0
+        StandaloneHealth: 500.0
+        JessHealth: 500.0
+        CarlosHealth: 150.0
+        SpeedLevel: 2
+        StrengthLevel: 2
+        DisplayName: '&aUltra Ravager'
+        JessName: '&aJess la Emperatriz'
+        CarlosName: '&aCarlos el Esclavo'
+      Supernova:
+        Enabled: true
+        DelaySeconds: 30
+        MaxActive: 2
+        Power: 35.0
+        BreakBlocks: false
+        Fire: false
+        Sound: ENTITY_WITHER_SPAWN
+        Particle: SOUL_FIRE_FLAME
+        DisplayName: '&6Gato Supernova'
+      GalacticCat:
+        Enabled: true
+        CountdownSeconds: 5
+        Sound: ENTITY_ENDER_DRAGON_GROWL
+        Particle: PORTAL
+        DisplayName: '&6Gato Galactico'
+        Summons:
+          CAT:
+            Enabled: true
+          PUFFERFISH:
+            Enabled: true
+          RAVAGER:
+            Enabled: true
+          ENDER_DRAGON:
+            Enabled: true
+          SKELETON:
+            Enabled: true
+          SLIME:
+            Enabled: true
+          MAGMA_CUBE:
+            Enabled: true
+          WITCH:
+            Enabled: true
+          SPIDER:
+            Enabled: true
+          SILVERFISH:
+            Enabled: true
+          ENDERMITE:
+            Enabled: true
+          PHANTOM:
+            Enabled: true
+          GHAST:
+            Enabled: true
+          CREEPER:
+            Enabled: true
+          SHULKER:
+            Enabled: true
+          GIANT:
+            Enabled: true
+          WITHER_SKELETON:
+            Enabled: true
+        Ghast:
+          MinimumHealth: 40.0
+          MaximumHealth: 60.0
+          DemonicName: '&6Ghast Demoniaco'
+          FloatingName: '&6Demonio flotante'
+      Storm:
+        BlindnessChance: 1.0
+        BlindnessDurationSeconds: 60
+      Guardian:
+        SpeedLevel: 3
+        ResistanceLevel: 2
+        ElderMaximumNearby: 5
+      CaveSpider:
+        DisplayName: '&6Arana inmortal'
+      Vindicator:
+        StrengthLevel: 1
+        HealthMultiplier: 2.0
+        MaximumNearby: 5
+      Witch:
+        DisplayName: '&6Bruja Imposible'
+        SpeedLevel: 2
+        HealthMultiplier: 2.0
+    Day50:
+      Enabled: true
+      UnlockDay: 50
+      Phantom:
+        Enabled: true
+        Size: 18
+        HealthMultiplier: 2.0
+        GhastSummonChance: 1.0
+        GhastSummonAmount: 4
+      SpecialSpawnChance: 10.0
+      QuantumCreeper:
+        Enabled: true
+        DisplayName: '&6Quantum Creeper'
+        ExplosionRadius: 60
+        Invisible: false
+        Powered: false
+        FuseTicks: 30
+      EnderCreeper:
+        Enabled: true
+        DisplayName: '&6Ender Creeper'
+        ExplosionRadius: 60
+        Invisible: true
+        Powered: false
+        FuseTicks: 30
+      Storm:
+        BlindnessChance: 300.0
+        BlindnessDurationSeconds: 60
+        LevitationChance: 1.0
+        LevitationMinimumSeconds: 3
+        LevitationMaximumSeconds: 19
+      Blaze:
+        Health: 200.0
+      Vex:
+        ResistanceLevel: 3
+      Cod:
+        DisplayName: '&6Bacalao de la Muerte'
+        SharpnessLevel: 50
+        KnockbackLevel: 100
+      Pufferfish:
+        DisplayName: '&6Pufferfish invulnerable'
+        Invulnerable: true
+      WitherSkeleton:
+        SpawnDenominator: 50
+        Health: 80.0
+        DisplayName: '&6Wither Skeleton Emperador'
+        BowPowerLevel: 100
+        BowPunchLevel: 5
+        SwordDropChance: 50.0
+      Giant:
+        SpawnDenominator: 500
+      UltraRavager:
+        TotemDropChance: 100.0
+        CarlosGoldDropChance: 100.0
+        JessAppleDropChance: 100.0
+        CarlosGoldAmount: 32
+        JessAppleAmount: 2
+        TotemAmount: 1
+      NetherReinforcements:
+        ChanceDenominator: 450
+        WorldMobLimit: 110
+        MaximumPerPoint: 3
+      Combat:
+        PolarBearExplosionPower: 1.5
+        PolarBearDelayTicks: 10
+        LlamaPoisonLevel: 3
+        LlamaPoisonDurationSeconds: 30
+        LlamaConfusionLevel: 1
+        LlamaConfusionDurationSeconds: 10
+        LlamaVelocityMultiplier: 3.0
+    Day60:
+      Enabled: true
+      UnlockDay: 60
+      Phantom:
+        Enabled: true
+        Size: 18
+        HealthMultiplier: 2.0
+        GhastSummonChance: 25.0
+        GhastSummonAmount: 4
+      SpecialSpawnChance: 25.0
+      EnderQuantumCreeper:
+        Enabled: true
+        DisplayName: '&6Ender Quantum Creeper'
+        ExplosionRadius: 60
+        Invisible: true
+        Powered: false
+        FuseTicks: 30
+      Storm:
+        BlindnessChance: 300.0
+      SoulSand:
+        SlownessLevel: 3
+        DurationSeconds: 30
+      Wither:
+        SpawnIntervalSeconds: 3600
+      Vex:
+        StrengthLevel: 3
+        AttackDamage: 7.0
+      Enderman:
+        StrengthLevel: 10
+      Drowned:
+        DamageMultiplier: 3.0
+      WitherSkeleton:
+        SpawnDenominator: 13
+      Giant:
+        SpawnDenominator: 125
+      UltraRavager:
+        TotemDropChance: 33.0
+        CarlosGoldDropChance: 33.0
+        JessAppleDropChance: 33.0
+      DemonSkeleton:
+        DisplayName: '&6Ultra Esqueleto Definitivo'
+        Health: 400.0
+        SpawnChance: 1.0
+        SpeedLevel: 2
+        BowPowerLevel: 32765
+        ExplosionPower: 3.0
+        ExplosionFire: true
+        ExplosionBreakBlocks: true
+        InstantKillArrows: true
+  EndSystem:
+    Enabled: true
+    UnlockDay: 30
+    EnderGhastEvery: 170
+    EnderCreeperEvery: 20
+    ProtectEndSpawn: false
+    ProtectRadius: 10
+  EndDemon:
+    Enabled: true
+    UnlockDay: 30
+    DisplayName: '&6&lHardcoreSMP Demon'
+    DisplayNameEnraged: '&6&lENRAGED HardcoreSMP DEMON'
+    Health: 1024
+    EnragedHealth: 512
+    OptimizeTNT: false
+    Attacks:
+      Enabled: true
+      IntervalTicks: 200
+      ExplosionPower: 6.0
+      SummonAmount: 3
+      LightningAmount: 5
+      Sound: ENTITY_ENDER_DRAGON_GROWL
+      Particle: DRAGON_BREATH
+      NormalStrengthLevel: 6
+      EnragedStrengthLevel: 8
+      NormalIntervalSeconds: 60
+      EnragedIntervalSeconds: 40
+      LightningDurationSeconds: 5
+      LightningEnragedDamage: 1.0
+      NightVisionDurationSeconds: 7
+      HarmLevel: 2
+      HarmDurationSeconds: 5
+      TntFuseTicks: 60
+      TntYieldMultiplier: 2.0
+      TntMinimumIntervalSeconds: 30
+      TntMaximumIntervalSeconds: 90
+      EndermanBuffMaximum: 4
+      EndermanBuffRadius: 35.0
+      LightningWeight: 4
+      EndermanBuffWeight: 12
+      NightVisionWeight: 9
+  TheBeginning:
+    Enabled: true
+    UnlockDay: 40
+    EntryDay: 50
+    XLimit: 3000
+    ZLimit: 3000
+    YticGenerateChance: 100000
+    World:
+      Height: 100
+      NoiseScale: 0.02
+      NoiseAmplitude: 15
+      SmallIslandChance: 20
+      SmallIslandDelayTicks: 20
+      StructureDelayTicks: 20
+    Portal:
+      Generate: true
+      MinimumHeight: 50
+      HeightOffset: 15
+      GuardTicks: 40
+      DenyBeforeEntryDay: true
+      EarlyEntryPunishment: KILL
+      EarlyEntryDamage: 10.0
+    Rules:
+      MobLimit: 70
+      CloseOnDeathTrain: true
+      FirstPlayerBlessing: true
+      LastPlayerCurse: true
+    Blessing:
+      EffectType: DAMAGE_RESISTANCE
+      Level: 2
+      DurationSeconds: 43200
+    Curse:
+      PrimaryEffectType: WEAKNESS
+      SecondaryEffectType: SLOW
+      Level: 1
+      DurationSeconds: 43200
+    Mobs:
+      QuantumCreeper:
+        DisplayName: '&6Quantum Creeper'
+        Powered: true
+    Loot:
+      MinRolls: 1
+      MaxRolls: 3
+      Entries:
+        Gold:
+          Enabled: true
+          Material: GOLD_INGOT
+          Chance: 5
+          Minimum: 50
+          Maximum: 60
+        GoldenApple:
+          Enabled: true
+          Material: GOLDEN_APPLE
+          Chance: 60
+          Minimum: 1
+          Maximum: 8
+        Diamond:
+          Enabled: true
+          Material: DIAMOND
+          Chance: 60
+          Minimum: 16
+          Maximum: 24
+        Arrow:
+          Enabled: true
+          Material: ARROW
+          Chance: 10
+          Minimum: 10
+          Maximum: 16
+        Rocket:
+          Enabled: true
+          Material: FIREWORK_ROCKET
+          Chance: 20
+          Minimum: 55
+          Maximum: 64
+        Totem:
+          Enabled: true
+          Material: TOTEM_OF_UNDYING
+          Chance: 5
+          Minimum: 1
+          Maximum: 2
+        Relic:
+          Enabled: true
+          Material: STRUCTURE_VOID
+          Chance: 1
+          Minimum: 1
+          Maximum: 1
+  OriginalRecipes:
+    Day40:
+      Enabled: true
+      UnlockDay: 40
+    Day50:
+      Enabled: true
+      UnlockDay: 50
+    Day60:
+      Enabled: true
+      UnlockDay: 60
+  RelicsSlots:
+    Enabled: true
+    UnlockDay: 40
+    BeginningSlotsUnlockDay: 60
+    WitchPunishment:
+      Enabled: true
+      HarmLevel: 4
+      PoisonLevel: 3
+      SlownessLevel: 5
+      ModeCount: 3
+      HarmDurationTicks: 20
+      PoisonDurationSeconds: 300
+      SlownessDurationSeconds: 20
+  NetheriteDrops:
+    Enabled: true
+    UnlockDay: 25
+    StopAtDay: 30
+    HelmetChance: 10
+    ChestplateChance: 10
+    LeggingsChance: 10
+    BootsChance: 10
+    Drops:
+      CaveSpiderHelmet:
+        Enabled: true
+        SourceMob: CAVE_SPIDER
+        Item: OriginalNetheriteHelmet
+        Amount: 1
+        Chance: 10.0
+        ClearVanillaDrops: true
+      SlimeChestplate:
+        Enabled: true
+        SourceMob: SLIME
+        Item: OriginalNetheriteChestplate
+        Amount: 1
+        Chance: 10.0
+        ClearVanillaDrops: true
+      MagmaCubeLeggings:
+        Enabled: true
+        SourceMob: MAGMA_CUBE
+        Item: OriginalNetheriteLeggings
+        Amount: 1
+        Chance: 10.0
+        ClearVanillaDrops: true
+      GhastBoots:
+        Enabled: true
+        SourceMob: GHAST
+        Item: OriginalNetheriteBoots
+        Amount: 1
+        Chance: 10.0
+        ClearVanillaDrops: true
+  HealthScaling:
+    Enabled: true
+    UnlockDay: 1
+    BaseHealth: 20.0
+    HyperAppleFirstBonusHealth: 4.0
+    HyperAppleSecondBonusHealth: 4.0
+    NetheriteFullSetBonusHealth: 8.0
+    InfernalFullSetBonusHealth: 10.0
+    InfernalResistance:
+      Enabled: true
+      DurationTicks: 60
+      Amplifier: 0
+    Day40PenaltyHealth: 8.0
+    Day60PenaltyHealth: 8.0
+    Day60NoOrbPenaltyHealth: 16.0
+    MinimumHealth: 1.0E-6
+    HyperApples:
+      Enabled: true
+      MaximumConsumed: 2
+  FoodPunishments:
+    Enabled: true
+    UnlockDay: 50
+    Pufferfish:
+      Enabled: true
+      DelayTicks: 600
+      Damage: 8.0
+      PoisonLevel: 4
+      HungerLevel: 3
+      ConfusionLevel: 2
+    RottenFlesh:
+      Enabled: true
+      HungerLevel: 2
+      DelayTicks: 5
+    PoisonousPotato:
+      Enabled: true
+      PoisonLevel: 1
+      DelayTicks: 5
+    SpiderEye:
+      Enabled: true
+      PoisonLevel: 1
+      DelayTicks: 5
+    Milk:
+      RestoreMiningFatigueDelayTicks: 10
+    PumpkinPie:
+      SaturationSeconds: 5
+      Day60HarmLevel: 4
+    EnderPearl:
+      Day60CooldownSeconds: 6
+    Drowning:
+      DamageBeforeDay60: 5.0
+      DamageFromDay60: 10.0
+  PvpRules:
+    Enabled: true
+    UnlockDay: 1
+    AllowPvPFromDay: 40
+  PaperWorldTweaks:
+    Enabled: true
+    UnlockDay: 1
+    DoubleMobCap: false
+    DoubleMobCapFromDay: 10
+    ReplaceMobsOnChunkLoad: true
+    OptimizeMobSpawns: false
+    SpiderEffects: true
+    MikeCreeperSpawn: false
+    MikeCreeperChanceDenominator: 30
+    MikeCreeperMaximumNearby: 10
+    MikeCreeperSearchRadius: 30
+    MikeCreeperMinimumDistance: 15
+    MikeCreeperDistanceVariation: 15
+    QuantumExplosionPower: 60
+    SupernovaCatsBreakBlocks: false
+    SupernovaCatsFire: false
+    SupernovaCatsPower: 35
+  AdditionalOptions:
+    Enabled: true
+    UnlockDay: 1
+    HealthDisplay:
+      Tab:
+        Enabled: false
+      BelowName:
+        Enabled: false
+  Events:
+    ShulkerShell:
+      Enabled: true
+      UnlockDay: 40
+      DurationSeconds: 14400
+      BossBarTitle: '&c&lX2 Shulker Shells: &b&n'
+      Sound: ENTITY_SHULKER_HURT
+      Particle: END_ROD
+      AnnounceStart: true
+      AnnounceEnd: true
+      DropMultiplier: 2
+    LifeOrb:
+      Enabled: true
+      UnlockDay: 60
+      DurationSeconds: 28800
+      BossBarTitle: '&60:00 para obtener el Life Orb'
+      Sound: BLOCK_BEACON_ACTIVATE
+      Particle: TOTEM_OF_UNDYING
+      AnnounceStart: true
+      AnnounceEnd: true
+      RewardAmount: 1
+  AntiAFK:
+    Enabled: true
+    UnlockDay: 1
+    DaysForBan: 7
+    Bypass:
+    - XandeerC
+Meta:
+  LegacyConfigMigrated: true

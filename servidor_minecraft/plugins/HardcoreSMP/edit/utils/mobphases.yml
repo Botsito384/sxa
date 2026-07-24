@@ -1,0 +1,110 @@
+Dia10Aranas:
+  Enabled: false
+  StartDay: 10
+  EndDay: 0
+  TargetType: SPIDER
+  Chance: 1.0
+  Stats:
+    HealthMultiplier: 1.0
+    DamageMultiplier: 1.0
+    SpeedMultiplier: 1.0
+    FollowRangeMultiplier: 1.0
+    Armor: -1.0
+    ArmorToughness: -1.0
+    KnockbackResistance: -1.0
+  Options:
+    Glowing: false
+    Silent: false
+    CanPickupItems: false
+    PreventVanillaDrops: false
+    Size: -1
+  Effects:
+    First:
+      Type: SPEED
+      Level: 3
+    Second:
+      Type: REGENERATION
+      Level: 4
+    Third:
+      Type: NONE
+Dia20Hostiles:
+  Enabled: false
+  StartDay: 20
+  EndDay: 0
+  TargetType: ALL_HOSTILE
+  Chance: 1.0
+  Stats:
+    HealthMultiplier: 1.35
+    DamageMultiplier: 1.25
+    SpeedMultiplier: 1.08
+    FollowRangeMultiplier: 1.0
+    Armor: -1.0
+    ArmorToughness: -1.0
+    KnockbackResistance: -1.0
+  Options:
+    Glowing: false
+    Silent: false
+    CanPickupItems: false
+    PreventVanillaDrops: false
+    Size: -1
+  Effects:
+    First:
+      Type: NONE
+    Second:
+      Type: NONE
+    Third:
+      Type: NONE
+Dia40Hostiles:
+  Enabled: false
+  StartDay: 40
+  EndDay: 0
+  TargetType: ALL_HOSTILE
+  Chance: 1.0
+  Stats:
+    HealthMultiplier: 1.5
+    DamageMultiplier: 1.4
+    SpeedMultiplier: 1.12
+    FollowRangeMultiplier: 1.0
+    Armor: -1.0
+    ArmorToughness: -1.0
+    KnockbackResistance: -1.0
+  Options:
+    Glowing: false
+    Silent: false
+    CanPickupItems: false
+    PreventVanillaDrops: false
+    Size: -1
+  Effects:
+    First:
+      Type: NONE
+    Second:
+      Type: NONE
+    Third:
+      Type: NONE
+Dia60Hostiles:
+  Enabled: false
+  StartDay: 60
+  EndDay: 0
+  TargetType: ALL_HOSTILE
+  Chance: 1.0
+  Stats:
+    HealthMultiplier: 2.0
+    DamageMultiplier: 1.8
+    SpeedMultiplier: 1.2
+    FollowRangeMultiplier: 1.0
+    Armor: -1.0
+    ArmorToughness: -1.0
+    KnockbackResistance: -1.0
+  Options:
+    Glowing: false
+    Silent: false
+    CanPickupItems: false
+    PreventVanillaDrops: false
+    Size: -1
+  Effects:
+    First:
+      Type: NONE
+    Second:
+      Type: NONE
+    Third:
+      Type: NONE

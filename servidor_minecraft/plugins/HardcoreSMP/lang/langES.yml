@@ -1,0 +1,105 @@
+Server-Messages:
+  Commands:
+    Prefix: '&c&lHardcoreSMP &8| &f'
+    Discord: '&c&lHardcoreSMP &8| &6Discord de Volane Studios: &9%discord%'
+    MissingArguments: '&ePor favor, ingresa todos los argumentos del comando.'
+    Changes:
+      Intro: '&eEste plugin contiene todos los cambios de dificultad del preset HardcoreSMP.'
+      MoreInfo: '&eMás información:'
+      Twitter: '&b> &f&lhttps://twitter.com/HardcoreSMPsmp'
+      Wiki: '&b> &f&lhttps://hardcoresmp.fandom.com/es/wiki/Cambios_de_dificultad'
+  Support:
+    Discord: '&c&lHardcoreSMP &8| &7Soporte oficial de Volane: &9%discord%'
+  coords-msg-enable: true
+  OnJoin: '&e%player% se ha unido al servidor.'
+  OnLeave: '&e%player% ha abandonado el servidor.'
+  StormEnd: '&cLa tormenta ha llegado a su fin.'
+  Sleep: '&7%player% &efue a dormir.'
+  SleepMessages:
+    RequiredComplete: '&eHan dormido suficientes jugadores (&b%required%&e).'
+    AllComplete: '&eHan dormido todos los jugadores.'
+  Sleeping: '&7%player% &eestá durmiendo &e(&b%players%&7/&b%needed%&e)'
+  DeathMessageTitle: '&c¡HardcoreSMP!'
+  DeathMessageSubtitle: '%player% ha muerto'
+  DefaultDeathMessage: '&7%player% ha muerto y ahora descansa en paz.'
+  DeathMessageChat: '&c&lEste es el comienzo del sufrimiento eterno de &4&l%player%&c&l.
+    ¡HA SIDO PERMABANEADO!'
+  DeathTrainMessage: '&c¡Comienza el Death Train con duración de %tiempo% horas!'
+  DeathTrainMessageMinutes: '&c¡Comienza el Death Train con duración de %tiempo% minutos!'
+  ActionBarMessage: '&7Quedan %tiempo% de tormenta'
+  Beginning:
+    Welcome: '&eBienvenido a The Beginning.'
+    Closed: '&eThe Beginning ha cerrado temporalmente por el Death Train.'
+    EarlyEntry: '&c%player% entro a The Beginning antes de tiempo.'
+    Blessing:
+      Applied: '&aSe ha otorgado la bendicion de The Beginning a &b%player%'
+      Broadcast: '&c&lHardcoreSMP &8| &f&d&l%player% ha recibido la bendicion de The
+        Beginning.'
+    Curse:
+      Applied: '&aSe ha otorgado la maldicion de The Beginning a &b%player%'
+      Broadcast: '&c&lHardcoreSMP &8| &f&d&l%player% ha recibido la maldicion de The
+        Beginning.'
+  Gui:
+    NoPermission: '&cNo tienes permiso para utilizar Content Studio.'
+    EntryDeleted: '&aEntrada eliminada: &e%entry%'
+  Ores:
+    InvalidTool: '&cNecesitas una herramienta permitida para picar este mineral.'
+  Items:
+    HyperGoldenApple:
+      SuccessOnly: '&a¡Has obtenido contenedores de vida extra!'
+      SuccessFirst: '&a¡Has obtenido contenedores de vida extra! &e(Hyper Golden Apple
+        1/2)'
+      SuccessSecond: '&a¡Has obtenido contenedores de vida extra! &e(Hyper Golden
+        Apple 2/2)'
+      AlreadyOne: '&cYa consumiste la Hyper Golden Apple permitida.'
+      AlreadySecond: '&cYa consumiste las 2 Hyper Golden Apples permitidas.'
+  Language:
+    Usage: '&eUsa &b/hcs idioma <es|en>&e.'
+    AlreadySpanish: '&cYa estás usando Español.'
+    AlreadyEnglish: '&cYa estas usando Ingles.'
+    ChangedSpanish: '&aIdioma cambiado a &eEspañol&a.'
+    ChangedEnglish: '&aIdioma cambiado a &eIngles&a.'
+    Invalid: '&cIdioma invalido. Usa &ees &co &een&c.'
+  AdminJoin:
+    Border: '&8&m----------------------------------------'
+    Header: '&c&lHardcoreSMP &8// &6Administracion'
+    Status: '&7Dia &f%day% &8| &7Version &f%version%'
+    Panel: '&6Panel &8> &f/%command% gui'
+    Support: '&cSoporte &8> &7%discord%'
+    ResourcePack: '&eAcepta el paquete de recursos para ver el contenido personalizado.'
+    Title: '&6&lADMINISTRACION'
+    Subtitle: '&cHardcoreSMP &8| &7Dia %day%'
+  Console:
+    Startup:
+      Header: '&8[&c&lHardcoreSMP&8] &6Inicializando dificultad progresiva'
+      Version: '&8[&cHCS&8] &7Plugin: &f%plugin_version% &8| &7Servidor: &f%server_version%'
+      Worlds: '&8[&cHCS&8] &7Mundos: &f%state% &8| &7Overworld: &f%overworld% &8|
+        &7End: &f%end%'
+      Platform: '&8[&cHCS&8] &7Plataforma: &f%software% &8| &7API: %compatibility%'
+      Days: '&8[&cHCS&8] &7Progresion disponible: &fDias 1-60'
+    Compatibility:
+      DoubleMobCap: '&eDuplicando el límite de monstruos en todos los mundos.'
+  Events:
+    GalacticCat:
+      Countdown: '&eUn gato galactico invocara un mob al azar en: &b%time%'
+      Summoned: '&eUn gato galactico ha invocado: &c&l%entity% &7(%x%, %y%, %z%)'
+      CurseStarted: '&cLa maldicion de un Gato Galactico ha comenzado en: %x%, %y%,
+        %z%'
+    Supernova:
+      Warning: '&cUn gato supernova va a explotar en %x% %y% %z% (%world%).'
+    ShulkerShell:
+      BossBar: '&e&lX2 Shulker Shells: &b&n%time%'
+      End: '&eEl evento de &c&lX2 Shulker Shells &eha terminado.'
+    LifeOrb:
+      BossBar: '&6&l%time% para obtener el Life Orb'
+      End: '&cSe termino el tiempo para obtener el Life Orb.'
+  Drops:
+    RavagerTotem:
+      Success: '&eUn totem!'
+      Fail1: '&cVaya, ese ravager no tenia nada.'
+      Fail2: '&cOtro ravager sin suerte.'
+      Fail3: '&cNada... hoy no hay totem.'
+      Fail4: '&cHoy no es tu dia.'
+Settings:
+  Auto-Collect-Raw-Text: false
+  Raw-Text-Section: Legacy.TextReplacements

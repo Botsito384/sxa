@@ -1,0 +1,40 @@
+# Ejemplo de consumible custom.
+# Todo esta comentado para que no haya consumibles activos por defecto.
+# EnergyDrink:
+#   Enabled: true
+#   Item: POTION
+#   Food: 2
+#   Saturation: 4
+#   Sound: ENTITY_GENERIC_DRINK
+#   Effects:
+
+OriginalSuperGoldenApplePlus:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Consumible original de recetas dia 40.
+  Id: GOLDEN_APPLE
+  Display: '&6Super Golden Apple +'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+  Item: GOLDEN_APPLE
+OriginalHyperGoldenApplePlus:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Consumible original de recetas dia 40/60.
+  Id: GOLDEN_APPLE
+  Display: '&6Hyper Golden Apple +'
+  Lore:
+  - '&8Registro original de HardcoreSMP.'
+  - '&7Control real: &eDificultad por dias'
+  Options:
+    CustomModelData: 1
+  Item: GOLDEN_APPLE

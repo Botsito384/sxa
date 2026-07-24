@@ -1,0 +1,283 @@
+Preset: PERMADEATH
+Day1:
+  Enabled: true
+  Day: 1
+  Name: Dia 1 - Vanilla Hardcore
+  Unlocks:
+    Drops: []
+    Items: []
+    Recipes: []
+    Mobs: []
+    VanillaMobs: []
+    RandomSpawns: []
+    Blocks: []
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - DeathTrain
+    - SleepSystem
+    - PvpRules
+    - PaperWorldTweaks
+    - AdditionalOptions
+    - HealthScaling
+    - AntiAFK
+    BlockedVanillaDrops: []
+Day10:
+  Enabled: true
+  Day: 10
+  Name: Dia 10 - Aranas y supervivencia grupal
+  Unlocks:
+    Drops: []
+    Items: []
+    Recipes: []
+    Mobs: []
+    VanillaMobs: []
+    RandomSpawns: []
+    Blocks: []
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - Day10Changes
+    BlockedVanillaDrops: []
+Day20:
+  Enabled: true
+  Day: 20
+  Name: Dia 20 - Hostile Mobs
+  Unlocks:
+    Drops:
+    - OriginalRavagerTotemDrop
+    Items: []
+    Recipes: []
+    Mobs:
+    - ZOMBIE
+    - SKELETON
+    - RAVAGER
+    - IRON_GOLEM
+    - VILLAGER
+    VanillaMobs: []
+    RandomSpawns: []
+    Blocks: []
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - HostileMobs
+    - MobPhases.Day20
+    BlockedVanillaDrops:
+    - IRON_GOLEM
+    - ZOMBIFIED_PIGLIN
+    - GHAST
+    - GUARDIAN
+    - ELDER_GUARDIAN
+    - MAGMA_CUBE
+    - ENDERMAN
+    - WITCH
+    - WITHER_SKELETON
+    - EVOKER
+    - PHANTOM
+    - SLIME
+    - DROWNED
+    - BLAZE
+Day25:
+  Enabled: true
+  Day: 25
+  Name: Dia 25 - Netherite Drops
+  Unlocks:
+    Drops:
+    - OriginalCaveSpiderNetheriteHelmetDrop
+    - OriginalSlimeNetheriteChestplateDrop
+    - OriginalMagmaCubeNetheriteLeggingsDrop
+    - OriginalGhastNetheriteBootsDrop
+    Items:
+    - OriginalNetheriteHelmet
+    - OriginalNetheriteChestplate
+    - OriginalNetheriteLeggings
+    - OriginalNetheriteBoots
+    Recipes: []
+    Mobs:
+    - GHAST
+    - SPIDER
+    - SLIME
+    - MAGMA_CUBE
+    VanillaMobs: []
+    RandomSpawns: []
+    Blocks: []
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - MobPhases.Day25
+    - NetheriteDrops
+    BlockedVanillaDrops: []
+Day30:
+  Enabled: true
+  Day: 30
+  Name: Dia 30 - End System
+  Unlocks:
+    Drops: []
+    Items: []
+    Recipes:
+    - OriginalEnderGhast
+    - OriginalHardcoreSMPDemon
+    Mobs:
+    - ENDERMAN
+    VanillaMobs:
+    - OriginalEnderCreeperEndSpawn
+    - OriginalEnderGhastEndSpawn
+    RandomSpawns: []
+    Blocks: []
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - TotemFail
+    - MobPhases.Day30
+    - EndSystem
+    - EndDemon
+    BlockedVanillaDrops: []
+Day40:
+  Enabled: true
+  Day: 40
+  Name: Dia 40 - Beginning y Reliquias
+  Unlocks:
+    Drops:
+    - OriginalRavagerTotemDrop
+    - OriginalShulkerShellEventDrop
+    Items:
+    - OriginalEndRelic
+    - OriginalNetheriteSword
+    - OriginalNetheritePickaxe
+    - OriginalNetheriteAxe
+    - OriginalNetheriteShovel
+    - OriginalNetheriteHoe
+    Recipes:
+    - OriginalRecipeEndRelic
+    - OriginalRecipeSuperGoldenApplePlus
+    - OriginalRecipeHyperGoldenApplePlus
+    - OriginalRecipeShulkerUncraft
+    Mobs:
+    - OriginalUltraRavager
+    - OriginalGatoSupernova
+    - OriginalGatoGalactico
+    VanillaMobs:
+    - CAT
+    RandomSpawns:
+    - OriginalGatoSupernovaSpawn
+    Blocks: []
+    Consumables:
+    - OriginalSuperGoldenApplePlus
+    - OriginalHyperGoldenApplePlus
+    Trees:
+    - OriginalTheBeginningYtic
+    - OriginalTheBeginningSmallIslands
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - MobPhases.Day40
+    - TheBeginning
+    - OriginalRecipes.Day40
+    - RelicsSlots
+    - Events.ShulkerShell
+    BlockedVanillaDrops: []
+Day50:
+  Enabled: true
+  Day: 50
+  Name: Dia 50 - Infernal
+  Unlocks:
+    Drops: []
+    Items:
+    - OriginalInfernalNetheriteBlock
+    Recipes:
+    - OriginalRecipeInfernalHelmet
+    - OriginalRecipeInfernalChestplate
+    - OriginalRecipeInfernalLeggings
+    - OriginalRecipeInfernalBoots
+    Mobs:
+    - OriginalEnderCreeper
+    - OriginalQuantumCreeper
+    VanillaMobs:
+    - CREEPER
+    - WITHER_SKELETON
+    RandomSpawns:
+    - OriginalMikeCreeperSpawn
+    Blocks:
+    - OriginalInfernalNetheriteBlock
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - MobPhases.Day50
+    - OriginalRecipes.Day50
+    - FoodPunishments
+    BlockedVanillaDrops: []
+Day60:
+  Enabled: true
+  Day: 60
+  Name: Dia 60 - Final
+  Unlocks:
+    Drops: []
+    Items:
+    - OriginalLifeOrb
+    - OriginalBeginningRelic
+    - OriginalInfernalElytra
+    Recipes:
+    - OriginalRecipeInfernalElytra
+    - OriginalRecipeLifeOrb
+    - OriginalRecipeBeginningRelic
+    Mobs:
+    - OriginalEnderQuantumCreeper
+    VanillaMobs:
+    - DROWNED
+    RandomSpawns: []
+    Blocks: []
+    Consumables: []
+    Trees: []
+    Spawners: []
+    Fuels: []
+    Music: []
+    Ores: []
+    VanillaLoot: []
+    Ranks: []
+    Gameplay:
+    - MobPhases.Day60
+    - OriginalRecipes.Day60
+    - Events.LifeOrb
+    BlockedVanillaDrops: []
+Migrations:
+  Day10AndBlockedDropsV1: true

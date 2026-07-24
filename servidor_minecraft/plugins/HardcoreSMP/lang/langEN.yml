@@ -1,0 +1,102 @@
+Server-Messages:
+  Commands:
+    Prefix: '&c&lHardcoreSMP &8| &f'
+    Discord: '&c&lHardcoreSMP &8| &6Volane Studios Discord: &9%discord%'
+    MissingArguments: '&ePlease provide every required command argument.'
+    Changes:
+      Intro: '&eThis plugin includes every difficulty change in the HardcoreSMP preset.'
+      MoreInfo: '&eMore information:'
+      Twitter: '&b> &f&lhttps://twitter.com/HardcoreSMPsmp'
+      Wiki: '&b> &f&lhttps://hardcoresmp.fandom.com/es/wiki/Cambios_de_dificultad'
+  Support:
+    Discord: '&c&lHardcoreSMP &8| &7Official Volane support: &9%discord%'
+  OnJoin: '&e%player% joined the game.'
+  OnLeave: '&e%player% left the game.'
+  StormEnd: '&cThe storm has been ended.'
+  Sleep: '&7%player% &ewent to sleep, Sweet dreams!.'
+  SleepMessages:
+    RequiredComplete: '&eEnough players slept (&b%required%&e).'
+    AllComplete: '&eEvery player slept.'
+  Sleeping: '&7%player% &eis sleeping &e(&b%players%&7/&b%needed%&e)'
+  DeathMessageTitle: '&cHardcoreSMP!'
+  DeathMessageSubtitle: '%player% died'
+  DefaultDeathMessage: '&7%player% has died and now rests in peace.'
+  DeathMessageChat: '&c&lThis is the beginning of the eternal suffering of &4&l%player%&c&l.
+    HAS BEEN PERMA-BANNED!'
+  DeathTrainMessage: '&cStarting the Death Train with a duration of %tiempo% hours!'
+  DeathTrainMessageMinutes: '&cStarting the Death Train with a duration of %tiempo%
+    minutes!'
+  ActionBarMessage: '&7%tiempo% storm left'
+  Beginning:
+    Welcome: '&eWelcome to The Beginning.'
+    Closed: '&eThe Beginning has temporarily closed because of the Death Train.'
+    EarlyEntry: '&c%player% entered The Beginning too early.'
+    Blessing:
+      Applied: '&aThe Beginning blessing was granted to &b%player%'
+      Broadcast: '&c&lHardcoreSMP &8| &f&d&l%player% received The Beginning blessing.'
+    Curse:
+      Applied: '&aThe Beginning curse was applied to &b%player%'
+      Broadcast: '&c&lHardcoreSMP &8| &f&d&l%player% received The Beginning curse.'
+  Gui:
+    NoPermission: '&cYou do not have permission to use Content Studio.'
+    EntryDeleted: '&aEntry deleted: &e%entry%'
+  Ores:
+    InvalidTool: '&cYou need an allowed tool to mine this ore.'
+  Items:
+    HyperGoldenApple:
+      SuccessOnly: '&aYou gained extra health containers!'
+      SuccessFirst: '&aYou gained extra health containers! &e(Hyper Golden Apple 1/2)'
+      SuccessSecond: '&aYou gained extra health containers! &e(Hyper Golden Apple
+        2/2)'
+      AlreadyOne: '&cYou already consumed the allowed Hyper Golden Apple.'
+      AlreadySecond: '&cYou already consumed both allowed Hyper Golden Apples.'
+  Language:
+    Usage: '&eUse &b/hcs idioma <es|en>&e.'
+    AlreadySpanish: '&cYour language is already Spanish.'
+    AlreadyEnglish: '&cYour language is already English.'
+    ChangedSpanish: '&aLanguage changed to &eSpanish&a.'
+    ChangedEnglish: '&aLanguage changed to &eEnglish&a.'
+    Invalid: '&cInvalid language. Use &ees &cor &een&c.'
+  AdminJoin:
+    Border: '&8&m----------------------------------------'
+    Header: '&c&lHardcoreSMP &8// &6Administration'
+    Status: '&7Day &f%day% &8| &7Version &f%version%'
+    Panel: '&6Panel &8> &f/%command% gui'
+    Support: '&cSupport &8> &7%discord%'
+    ResourcePack: '&eAccept the resource pack to view custom content.'
+    Title: '&6&lADMINISTRATION'
+    Subtitle: '&cHardcoreSMP &8| &7Day %day%'
+  Console:
+    Startup:
+      Header: '&8[&c&lHardcoreSMP&8] &6Starting progressive difficulty'
+      Version: '&8[&cHCS&8] &7Plugin: &f%plugin_version% &8| &7Server: &f%server_version%'
+      Worlds: '&8[&cHCS&8] &7Worlds: &f%state% &8| &7Overworld: &f%overworld% &8|
+        &7End: &f%end%'
+      Platform: '&8[&cHCS&8] &7Platform: &f%software% &8| &7API: %compatibility%'
+      Days: '&8[&cHCS&8] &7Available progression: &fDays 1-60'
+    Compatibility:
+      DoubleMobCap: '&eDoubling the monster limit in every world.'
+  Events:
+    GalacticCat:
+      Countdown: '&eA Galactic Cat will summon a random mob in: &b%time%'
+      Summoned: '&eA Galactic Cat summoned: &c&l%entity% &7(%x%, %y%, %z%)'
+      CurseStarted: '&cA Galactic Cat curse started at: %x%, %y%, %z%'
+    Supernova:
+      Warning: '&cA Supernova Cat will explode at %x% %y% %z% (%world%).'
+    ShulkerShell:
+      BossBar: '&e&lX2 Shulker Shells: &b&n%time%'
+      End: '&eThe &c&lX2 Shulker Shells &eevent has ended.'
+    LifeOrb:
+      BossBar: '&6&l%time% to obtain the Life Orb'
+      End: '&cThe time to obtain the Life Orb has ended.'
+  Drops:
+    RavagerTotem:
+      Success: '&eA totem!'
+      Fail1: '&cThat ravager had nothing.'
+      Fail2: '&cAnother unlucky ravager.'
+      Fail3: '&cNo totem this time.'
+      Fail4: '&cToday is not your day.'
+  coords-msg-enable: true
+Settings:
+  Auto-Collect-Raw-Text: false
+  Raw-Text-Section: Legacy.TextReplacements

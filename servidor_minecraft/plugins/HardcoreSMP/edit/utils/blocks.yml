@@ -1,0 +1,33 @@
+# Ejemplo de bloque custom.
+# Todo esta comentado para que no haya bloques activos por defecto.
+# RubyOre:
+#   Enabled: true
+#   Item: REDSTONE_ORE
+#   BaseBlock: REDSTONE_ORE
+#   Display: '&cRuby Ore'
+#   Hardness: 3
+#   DropWhenMined: true
+#   AllowHand: false
+#   ToolsWhitelist:
+#   - PICKAXE
+#   Drops:
+#   - DIAMOND 1 1
+#   Sounds:
+#     Place: BLOCK_STONE_PLACE
+
+OriginalInfernalNetheriteBlock:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Bloque custom original colocado con diamante unbreakable.
+  Item: DIAMOND
+  BaseBlock: NETHERITE_BLOCK
+  Display: '&6Infernal Netherite Block'
+  Options:
+    CustomModelData: 1
+    ItemModel: minecraft:hardcoresmp/block/netherite_block
+  AllowHand: false
+  ToolsWhitelist:
+  - PICKAXE

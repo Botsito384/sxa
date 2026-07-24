@@ -1,0 +1,4 @@
+# Loot vanilla de cofres de estructuras.
+# Crealo y editalo desde /hcs gui > Utilidades > Loot Vanilla.
+# Mode: ADD suma loot custom, REPLACE deja solo el custom y EMPTY vacia el cofre.
+# CLEAR se acepta como alias antiguo de REPLACE cuando hay drops configurados.

@@ -1,0 +1,76 @@
+# Ejemplos de tablas de drops.
+# Todo esta comentado para que no haya drops activos por defecto.
+#
+# EvilMinionDrops:
+#   MinItems: 1
+#   MaxItems: 2
+#   Drops:
+#   - DIAMOND 1-5 0.1
+#   - EMERALD 2 0.5
+
+OriginalCaveSpiderNetheriteHelmetDrop:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Cave Spider -> Netherite Helmet.
+  SourceMob: CAVE_SPIDER
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  - OriginalNetheriteHelmet 1 0.10
+OriginalSlimeNetheriteChestplateDrop:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Slime -> Netherite Chestplate.
+  SourceMob: SLIME
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  - OriginalNetheriteChestplate 1 0.10
+OriginalMagmaCubeNetheriteLeggingsDrop:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Magma Cube -> Netherite Leggings.
+  SourceMob: MAGMA_CUBE
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  - OriginalNetheriteLeggings 1 0.10
+OriginalGhastNetheriteBootsDrop:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: NetheriteDrops
+  Note: Ghast -> Netherite Boots.
+  SourceMob: GHAST
+  MinItems: 1
+  MaxItems: 1
+  Drops:
+  - OriginalNetheriteBoots 1 0.10
+OriginalRavagerTotemDrop:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 20
+  OriginalFeature: MobPhases.Day20
+  Note: Ravagers originales pueden soltar totems.
+  Drops:
+  - TOTEM_OF_UNDYING 1 0.01
+OriginalShulkerShellEventDrop:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: Events.ShulkerShell
+  Note: Evento original x2 shulker shells.
+  Drops:
+  - SHULKER_SHELL 1-2 0.02

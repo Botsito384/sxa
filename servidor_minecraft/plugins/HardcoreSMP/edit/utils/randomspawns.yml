@@ -1,0 +1,72 @@
+# Ejemplos de random spawns.
+# Todo esta comentado para que no aparezca ningun mob custom por defecto.
+#
+# RandomEvilMinion:
+#   Type: EvilMinion
+#   Worlds: world
+#   Chance: 0.05
+#   Priority: 1
+#   Action: REPLACE
+#   Conditions:
+#   - night true
+
+OriginalMikeCreeperSpawn:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 1
+  OriginalFeature: PaperWorldTweaks
+  Note: Spawn original Mike-Creeper-Spawn.
+  Type: OriginalEnderQuantumCreeper
+  MobName: OriginalEnderQuantumCreeper
+  Worlds:
+  - world
+  - world_the_end
+  Chance: 0.01
+  Biome: ''
+  Biomes: []
+OriginalGatoSupernovaSpawn:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: MobPhases.Day40
+  Note: Conversion/spawn original de gatos supernova.
+  Type: OriginalGatoSupernova
+  MobName: OriginalGatoSupernova
+  Worlds:
+  - world
+  - world_the_end
+  Chance: 0.01
+  Biome: ''
+  Biomes: []
+OriginalEnderCreeperEndSpawn:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 30
+  OriginalFeature: EndSystem
+  Note: Spawn original de creepers en End.
+  Type: OriginalEnderCreeper
+  MobName: OriginalEnderCreeper
+  Worlds:
+  - world
+  - world_the_end
+  Chance: 0.01
+  Biome: ''
+  Biomes: []
+OriginalEnderGhastEndSpawn:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 30
+  OriginalFeature: EndSystem
+  Note: Spawn original de ghasts en End.
+  Type: OriginalEnderGhast
+  MobName: OriginalEnderGhast
+  Worlds:
+  - world
+  - world_the_end
+  Chance: 0.01
+  Biome: ''
+  Biomes: []

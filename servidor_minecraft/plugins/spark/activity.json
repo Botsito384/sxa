@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "XandeerC",
+      "uniqueId": "011acbca-5ed6-3cea-97fc-c77b2d1f9f08"
+    },
+    "time": 1784908532710,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/DjaHMpbUf4"
+    }
+  }
+]

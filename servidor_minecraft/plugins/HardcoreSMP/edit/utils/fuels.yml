@@ -1,0 +1,6 @@
+# Ejemplo de fuel custom.
+# Todo esta comentado para que no haya fuels activos por defecto.
+# RubyFuel:
+#   Enabled: true
+#   Item: BLAZE_POWDER
+#   BurnTime: 2400

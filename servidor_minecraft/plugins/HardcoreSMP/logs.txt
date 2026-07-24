@@ -1,0 +1,12 @@
+[24/07/2026] 20:30:07 Se ha activado el plugin correctamente.
+[24/07/2026] 20:30:07 [DISCORD] El bot de Discord esta desactivado en discord/config.yml.
+[24/07/2026] 20:31:01 Se ha recargado el plugin
+[24/07/2026] 20:31:01 [DISCORD] El bot de Discord esta desactivado en discord/config.yml.
+[24/07/2026] 20:31:30 Se ha recargado el plugin
+[24/07/2026] 20:31:30 [DISCORD] El bot de Discord esta desactivado en discord/config.yml.
+[24/07/2026] 20:31:36 Se ha recargado el plugin
+[24/07/2026] 20:31:36 [DISCORD] El bot de Discord esta desactivado en discord/config.yml.
+[24/07/2026] 20:31:53 Se ha recargado el plugin
+[24/07/2026] 20:31:53 [DISCORD] El bot de Discord esta desactivado en discord/config.yml.
+[24/07/2026] 20:32:16 Se ha recargado el plugin
+[24/07/2026] 20:32:16 [DISCORD] El bot de Discord esta desactivado en discord/config.yml.

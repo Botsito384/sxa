@@ -1,0 +1,17 @@
+# Ejemplos de spawners custom.
+# Todo esta comentado para que no haya spawners activos por defecto.
+#
+# DungeonSpawner1:
+#   MobName: EvilMinion
+#   World: world
+#   X: 0
+#   Y: 64
+#   Z: 0
+#   Radius: 10.0
+#   RadiusY: 0.0
+#   UseTimer: true
+#   MaxMobs: 5
+#   MobsPerSpawn: 1
+#   Cooldown: 20
+#   Warmup: 0
+#   ActivationRange: 32.0

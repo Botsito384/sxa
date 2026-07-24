@@ -1,0 +1,19 @@
+# Ejemplo de mineral/populator.
+# Todo esta comentado para que no haya minerales activos por defecto.
+# RubyOrePopulator:
+#   Enabled: false
+#   Display: '&cMineral de Ruby'
+#   Lore:
+#   - '&7Extraido de las profundidades.'
+#   Block: REDSTONE_ORE
+#   DropItem: REDSTONE
+#   DropAmount: 1
+#   AllowHand: false
+#   ToolsWhitelist:
+#   - PICKAXE
+#   Worlds: world
+#   Biome: ''
+#   Chance: 0.01
+#   MinY: -16
+#   MaxY: 32
+#   VeinSize: 4

@@ -1,0 +1,7 @@
+# Ejemplo de musica custom.
+# Todo esta comentado para que no haya musica activa por defecto.
+# KarmaDisc:
+#   Enabled: true
+#   Item: MUSIC_DISC_CAT
+#   Display: '&dKarma Disc'
+#   Sound: MUSIC_DISC_CAT

@@ -1,0 +1,10 @@
+Difficulty: NORMAL
+Rules:
+  DO_DAYLIGHT_CYCLE: true
+  DO_WEATHER_CYCLE: true
+  DO_MOB_SPAWNING: true
+  KEEP_INVENTORY: false
+  NATURAL_REGENERATION: true
+  MOB_GRIEFING: true
+  DISABLE_RAIDS: false
+  DO_INSOMNIA: true

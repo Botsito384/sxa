@@ -1,0 +1,280 @@
+# Ejemplo de receta custom.
+# Todo esta comentado para que no haya recetas activas por defecto.
+# RubySword:
+#   Enabled: true
+#   Type: SHAPED
+#   Result: DIAMOND_SWORD 1
+#   Shape:
+#   - ' R '
+#   - ' R '
+#   - ' S '
+#   Ingredients:
+#     R: DIAMOND
+
+OriginalRecipeEndRelic:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Receta original de Reliquia del Fin.
+  Type: SHAPED
+  Result: OriginalEndRelic 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - ''
+  - SHULKER_SHELL
+  - ''
+  - ''
+  - DIAMOND_BLOCK
+  - ''
+  - ''
+  - SHULKER_SHELL
+  - ''
+  RecipeSchemaVersion: 2
+OriginalRecipeSuperGoldenApplePlus:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Receta original Super Golden Apple +.
+  Type: SHAPED
+  Result: OriginalSuperGoldenApplePlus 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - GOLD_INGOT 8
+  - GOLD_INGOT 8
+  - GOLD_INGOT 8
+  - GOLD_INGOT 8
+  - GOLDEN_APPLE
+  - GOLD_INGOT 8
+  - GOLD_INGOT 8
+  - GOLD_INGOT 8
+  - GOLD_INGOT 8
+  RecipeSchemaVersion: 2
+OriginalRecipeHyperGoldenApplePlus:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Receta original Hyper Golden Apple +.
+  Type: SHAPED
+  Result: OriginalHyperGoldenApplePlus 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLDEN_APPLE
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  RecipeSchemaVersion: 2
+  UpgradeFeature: OriginalRecipes.Day60
+  UpgradeMatrix:
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLDEN_APPLE 64
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  - GOLD_BLOCK 8
+  UpgradeSchemaVersion: 1
+OriginalRecipeShulkerUncraft:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: OriginalRecipes.Day40
+  Note: Receta original para romper shulker boxes.
+  Type: SHAPELESS
+  Result: SHULKER_SHELL 2
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Ingredients:
+  - ANY_SHULKER_BOX
+OriginalRecipeInfernalHelmet:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Receta original infernal helmet.
+  Type: SHAPED
+  Result: OriginalInfernalHelmet 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - OriginalNetheriteHelmet
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  RecipeSchemaVersion: 2
+OriginalRecipeInfernalChestplate:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Receta original infernal chestplate.
+  Type: SHAPED
+  Result: OriginalInfernalChestplate 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - OriginalNetheriteChestplate
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  RecipeSchemaVersion: 2
+OriginalRecipeInfernalLeggings:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Receta original infernal leggings.
+  Type: SHAPED
+  Result: OriginalInfernalLeggings 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - OriginalNetheriteLeggings
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  RecipeSchemaVersion: 2
+OriginalRecipeInfernalBoots:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: OriginalRecipes.Day50
+  Note: Receta original infernal boots.
+  Type: SHAPED
+  Result: OriginalInfernalBoots 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - OriginalNetheriteBoots
+  - OriginalInfernalNetheriteBlock
+  - ''
+  - OriginalInfernalNetheriteBlock
+  - ''
+  RecipeSchemaVersion: 2
+OriginalRecipeInfernalElytra:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: OriginalRecipes.Day60
+  Note: Receta original infernal elytra.
+  Type: SHAPED
+  Result: OriginalInfernalElytra 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - OriginalInfernalNetheriteBlock
+  - OriginalInfernalNetheriteBlock
+  - OriginalInfernalNetheriteBlock
+  - OriginalInfernalNetheriteBlock
+  - ELYTRA
+  - OriginalInfernalNetheriteBlock
+  - OriginalInfernalNetheriteBlock
+  - OriginalInfernalNetheriteBlock
+  - OriginalInfernalNetheriteBlock
+  RecipeSchemaVersion: 2
+OriginalRecipeLifeOrb:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: OriginalRecipes.Day60
+  Note: Receta original Life Orb.
+  Type: SHAPED
+  Result: OriginalLifeOrb 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - DIAMOND 64
+  - GOLD_INGOT 64
+  - BONE_BLOCK 64
+  - BLAZE_ROD 64
+  - HEART_OF_THE_SEA
+  - END_STONE 64
+  - NETHER_BRICKS 64
+  - OBSIDIAN 64
+  - LAPIS_BLOCK 64
+  RecipeSchemaVersion: 2
+OriginalRecipeBeginningRelic:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: OriginalRecipes.Day60
+  Note: Receta original Reliquia del Comienzo.
+  Type: SHAPED
+  Result: OriginalBeginningRelic 1
+  Shape:
+  - ABC
+  - DEF
+  - GHI
+  Matrix:
+  - SHULKER_SHELL
+  - DIAMOND_BLOCK 32
+  - SHULKER_SHELL
+  - DIAMOND_BLOCK 32
+  - OriginalEndRelic
+  - DIAMOND_BLOCK 32
+  - SHULKER_SHELL
+  - DIAMOND_BLOCK 32
+  - SHULKER_SHELL
+  RecipeSchemaVersion: 2

@@ -1,0 +1,155 @@
+# Ejemplos de modificaciones a mobs vanilla.
+# Todo esta comentado para que no cambie ningun mob vanilla por defecto.
+#
+# ZOMBIE:
+#   Enabled: false
+#   Display: '&cZombie Hardcore'
+#   AlwaysShowName: false
+#   Health: 40
+#   Damage: 6
+#   MovementSpeed: 0.28
+
+ZOMBIE:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 20
+  OriginalFeature: MobPhases.Day20
+  Note: Hostilizacion/reemplazos originales por fases.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+SKELETON:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 20
+  OriginalFeature: MobPhases.Day20
+  Note: Clases de esqueletos originales.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+SPIDER:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 10
+  OriginalFeature: Day10Changes
+  Note: Efectos aleatorios configurables del dia 10.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+CREEPER:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: MobPhases.Day50
+  Note: Ender/Quantum creepers originales.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+ENDERMAN:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 30
+  OriginalFeature: EndSystem
+  Note: Enderman del End y pathfinders hostiles.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+GHAST:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 25
+  OriginalFeature: MobPhases.Day25
+  Note: Fireballs con yield por fase y drops netherite.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+RAVAGER:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 20
+  OriginalFeature: MobPhases.Day20
+  Note: Totem drops y Ultra Ravager.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+CAT:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: MobPhases.Day40
+  Note: Gatos supernova/galacticos.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+VILLAGER:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 20
+  OriginalFeature: HostileMobs
+  Note: Conversion hostile y Jess la Emperatriz.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+IRON_GOLEM:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 20
+  OriginalFeature: HostileMobs
+  Note: Limpieza de drops y reemplazos hostile.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+WITHER_SKELETON:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 50
+  OriginalFeature: MobPhases.Day50
+  Note: Wither Skeleton Emperador.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25
+DROWNED:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 60
+  OriginalFeature: MobPhases.Day60
+  Note: Damage/efectos originales por fase.
+  Display: ''
+  AlwaysShowName: false
+  Health: 20
+  Damage: 4
+  MovementSpeed: 0.25

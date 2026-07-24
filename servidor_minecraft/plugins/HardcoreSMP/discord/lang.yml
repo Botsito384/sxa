@@ -1,0 +1,188 @@
+# Todos los textos enviados por la integracion de Discord.
+# Placeholders disponibles segun el mensaje:
+# %player%, %server%, %date%, %cause%, %coordinates%, %day%, %changes% y %message%.
+
+Console:
+  Disabled: El bot de Discord esta desactivado en discord/config.yml.
+  MissingToken: Discord esta activado, pero Bot.Token esta vacio.
+  Connecting: Conectando el bot integrado de Discord...
+  Connected: Bot conectado como %bot%.
+  ConnectionFailed: 'No se pudo conectar el bot: %error%'
+  ConnectionClosed: La conexion de Discord se cerro antes de quedar lista.
+  Migrated: La configuracion antigua de Discord fue migrada a discord/config.yml.
+  ChannelNotFound: No se encontro el canal %channel% configurado en %path%.
+  MessageFailed: 'No se pudo enviar un mensaje a %channel%: %error%'
+
+Defaults:
+  UnknownCause: Causa desconocida
+  AfkCause: Inactividad (AFK)
+  UnknownCoordinates: No disponibles
+  BareHands: sus propias manos
+  UnknownMob: una criatura desconocida
+  UnknownProjectile: un proyectil
+  NoDifficultyChanges: No hay cambios configurados para este dia.
+
+Formats:
+  Coordinates: '%world%: %x%, %y%, %z%'
+
+# Causas registradas por Minecraft/Bukkit y situaciones con atacante.
+# Tambien se guardan en data/players.yml para cabezas y registros de muerte.
+DeathCauses:
+  PVP_MELEE: Fue asesinado por %killer% usando %weapon%.
+  PVP_PROJECTILE: Fue asesinado a distancia por %killer% usando %weapon%.
+  PVP_EXPLOSION: Murio en una explosion provocada por %killer%.
+  PVP_PET: Fue asesinado por la mascota de %killer%.
+  PVP_INDIRECT: 'Murio durante un combate contra %killer%. Causa final: %cause%'
+  MOB_ATTACK: Murio atacado por %mob%.
+  MOB_PROJECTILE: Murio por %projectile% disparado por %mob%.
+  MOB_EXPLOSION: Murio por una explosion provocada por %mob%.
+  CREEPER_EXPLOSION: Murio por la explosion de un Creeper.
+  TNT_EXPLOSION: Murio por una explosion de TNT.
+  DISPENSER_PROJECTILE: Murio por %projectile% disparado desde un dispensador.
+  
+  CONTACT: Murio al tocar un bloque peligroso.
+  ENTITY_ATTACK: Murio atacado por una criatura.
+  ENTITY_SWEEP_ATTACK: Murio por un ataque de barrido.
+  PROJECTILE: Murio alcanzado por un proyectil.
+  SUFFOCATION: Murio sofocado dentro de un bloque.
+  FALL: Murio por una caida.
+  FIRE: Murio quemado por el fuego.
+  FIRE_TICK: Murio mientras ardia.
+  MELTING: Murio al derretirse.
+  LAVA: Intento nadar en lava.
+  DROWNING: Murio ahogado.
+  BLOCK_EXPLOSION: Murio por la explosion de un bloque.
+  ENTITY_EXPLOSION: Murio por una explosion.
+  VOID: Cayo fuera del mundo.
+  LIGHTNING: Murio alcanzado por un rayo.
+  SUICIDE: Murio por su propia mano.
+  KILL: Fue eliminado por un comando.
+  STARVATION: Murio de hambre.
+  POISON: Murio envenenado.
+  MAGIC: Murio por magia.
+  WITHER: Murio consumido por el efecto Wither.
+  FALLING_BLOCK: Murio aplastado por un bloque que caia.
+  THORNS: Murio por el encantamiento Espinas.
+  DRAGON_BREATH: Murio por el aliento del Ender Dragon.
+  CUSTOM: Murio por una causa personalizada.
+  FLY_INTO_WALL: Murio al estrellarse contra una pared.
+  HOT_FLOOR: Descubrio que el suelo estaba demasiado caliente.
+  CRAMMING: Murio aplastado entre demasiadas entidades.
+  DRYOUT: Murio por deshidratacion.
+  FREEZE: Murio congelado.
+  SONIC_BOOM: Murio por el ataque sonico de un Warden.
+  WORLD_BORDER: Murio fuera del borde del mundo.
+  CAMPFIRE: Murio quemado sobre una fogata.
+  UNKNOWN: Murio por una causa desconocida.
+
+EntityNames:
+  CREEPER: Creeper
+  ZOMBIE: Zombie
+  HUSK: Husk
+  DROWNED: Ahogado
+  SKELETON: Esqueleto
+  STRAY: Errante
+  WITHER_SKELETON: Esqueleto Wither
+  SPIDER: Arana
+  CAVE_SPIDER: Arana de cueva
+  ENDERMAN: Enderman
+  WITCH: Bruja
+  BLAZE: Blaze
+  GHAST: Ghast
+  SLIME: Slime
+  MAGMA_CUBE: Cubo de magma
+  PHANTOM: Phantom
+  GUARDIAN: Guardian
+  ELDER_GUARDIAN: Guardian anciano
+  SHULKER: Shulker
+  VINDICATOR: Vindicador
+  EVOKER: Evocador
+  PILLAGER: Saqueador
+  RAVAGER: Devastador
+  VEX: Vex
+  ENDER_DRAGON: Ender Dragon
+  WITHER: Wither
+  WARDEN: Warden
+  IRON_GOLEM: Golem de hierro
+  WOLF: Lobo
+  BEE: Abeja
+  POLAR_BEAR: Oso polar
+
+ProjectileNames:
+  ARROW: una flecha
+  SPECTRAL_ARROW: una flecha espectral
+  TRIDENT: un tridente
+  FIREBALL: una bola de fuego
+  SMALL_FIREBALL: una bola de fuego
+  DRAGON_FIREBALL: una bola de fuego de dragon
+  WITHER_SKULL: un craneo de Wither
+  SHULKER_BULLET: una bala de Shulker
+  LLAMA_SPIT: un escupitajo de llama
+  SNOWBALL: una bola de nieve
+  EGG: un huevo
+  ENDER_PEARL: una perla de Ender
+  SPLASH_POTION: una pocion arrojadiza
+  LINGERING_POTION: una pocion persistente
+  FIREWORK: un cohete de fuegos artificiales
+
+Embeds:
+  PluginEnabled:
+    Title: HardcoreSMP
+    Description: ⚙️ El servidor esta en linea y HardcoreSMP fue activado.
+    Color: '#43A047'
+  
+  PluginDisabled:
+    Title: HardcoreSMP
+    Description: ⚙️ El servidor se ha apagado o HardcoreSMP fue desactivado.
+    Color: '#E53935'
+  
+  DeathTrain:
+    Title: Death Train
+    Description: 🔥 %message%
+    Color: '#FF5722'
+  
+  DifficultyChange:
+    Title: Cambio de dificultad
+    Description: ⏰ El servidor ha avanzado al dia **%day%**.
+    Color: '#FF9800'
+    Fields:
+      Changes:
+        Name: Cambios habilitados
+        Value: '%changes%'
+        Inline: false
+  
+  PlayerDeath:
+    Title: '%player% ha muerto permanentemente en %server%'
+    Description: La muerte queda registrada en HardcoreSMP.
+    Color: '#D32F2F'
+    Thumbnail: https://mineskin.eu/headhelm/%player%/100.png
+    Reaction: ☠️
+    Fields:
+      Date:
+        Name: 📅 Fecha
+        Value: '%date%'
+        Inline: true
+      Cause:
+        Name: 💀 Causa
+        Value: '%cause%'
+        Inline: true
+      Coordinates:
+        Name: 🧭 Coordenadas
+        Value: '%coordinates%'
+        Inline: true
+  
+  AfkBan:
+    Title: '%player% fue retirado de %server%'
+    Description: El jugador supero el limite de inactividad configurado.
+    Color: '#7E57C2'
+    Thumbnail: https://mineskin.eu/headhelm/%player%/100.png
+    Reaction: ⏳
+    Fields:
+      Date:
+        Name: 📅 Fecha
+        Value: '%date%'
+        Inline: true
+      Cause:
+        Name: ⌛ Motivo
+        Value: '%cause%'
+        Inline: true

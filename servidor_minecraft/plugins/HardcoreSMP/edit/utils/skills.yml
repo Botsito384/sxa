@@ -1,0 +1,11 @@
+# Ejemplos de skills.
+# Todo esta comentado para que no haya skills activas por defecto.
+#
+# FlechaFuerte:
+#   Skills:
+#   - damage{a=17} @target
+#
+# SummonMinions:
+#   Cooldown: 20
+#   Skills:
+#   - summon{mob=EvilMinion;amount=2;noise=5} @self

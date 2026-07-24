@@ -1,0 +1,8 @@
+# Ejemplo de rango.
+# Todo esta comentado para que no haya rangos activos por defecto.
+# Admin:
+#   Enabled: true
+#   Permission: hardcoresmp.rank.admin
+#   Priority: 100
+#   Prefix: '&c[Admin]'
+#   ChatFormat: '%prefix% &f%player%&7: &f%message%'

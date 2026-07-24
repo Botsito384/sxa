@@ -1,0 +1,28 @@
+# Ejemplo de arbol/populator.
+# Todo esta comentado para que no haya arboles activos por defecto.
+# RubyTree:
+#   Enabled: false
+#   Log: OAK_LOG
+#   Leaves: OAK_LEAVES
+#   Worlds: world
+
+OriginalTheBeginningYtic:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: TheBeginning
+  Note: Generacion original de estructuras Ytic en The Beginning.
+  Worlds:
+  - pdc_the_beginning
+  Chance: 1.0E-5
+OriginalTheBeginningSmallIslands:
+  Enabled: true
+  RegistryOnly: false
+  ActivationMode: DAY_LOCKED
+  UnlockDay: 40
+  OriginalFeature: TheBeginning
+  Note: Generacion original de islas pequenas en The Beginning.
+  Worlds:
+  - pdc_the_beginning
+  Chance: 0.05
